@@ -21,10 +21,6 @@
 
 
 
-
-
-
-
 Black-Scholes equation
 Pay off of a European Call option:
 
@@ -59,6 +55,4 @@ Assuming the logartihm of the stock price is normally distributed
 [Greeks](Greeks.md)
 
 
-testing
-
-
+testing again
