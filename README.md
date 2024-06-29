@@ -28,8 +28,9 @@ In a risk-neutrial wrold all assests earn the risk-free rate
 Assuming the logartihm of the stock price is normally distributed
 
 
-[[Numerical Methods]]
-
+[Numerical Methods](Numerical%20Methods.md)
+[Binary Tree](Binary%20Tree)
+[[Monte Carlo Simulation]]
 
 
 testing
