@@ -26,4 +26,8 @@ $`p(0) = e^{−rT}KN(-d_2) -  S(0)N(-d_1)`$
 
 Assumptions: 
 In a risk-neutrial wrold all assests earn the risk-free rate
+
 Assuming the logartihm of the stock price is normally distributed
+
+
+Explicit method for the partial differential equation
