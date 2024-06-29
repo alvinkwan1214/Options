@@ -14,4 +14,4 @@ $`c(0) = S(0)N(d_1) − e^{−rT}KN(d_2)`$
 
 $`d_1 = \frac{\ln({S(0)/K}) + (r + \sigma^2/2)T}{\sigma * \sqrt(T)}`$   
 
-
+$`d_2 =  d_1 - \sigma\sqrt(T)`$   
