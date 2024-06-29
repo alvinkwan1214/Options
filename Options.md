@@ -1,4 +1,4 @@
-# Options basics
+# Options
 
 **Call Options**: The right to buy a particular asset for an agreed amount at a specified time in the future
 
