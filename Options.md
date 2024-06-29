@@ -30,7 +30,8 @@ Assuming the logartihm of the stock price is normally distributed
 
 [Numerical Methods](Numerical%20Methods.md)
 [Binary Tree](Binary%20Tree)
-[[Monte Carlo Simulation]]
+[Monte Carlo Simulation](Monte%20Carlo%20Simulation.md)
+
 
 
 testing
