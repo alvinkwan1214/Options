@@ -31,3 +31,5 @@ Assuming the logartihm of the stock price is normally distributed
 
 
 Explicit method for the partial differential equation
+
+testing
