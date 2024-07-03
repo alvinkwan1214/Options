@@ -36,9 +36,7 @@ Delta hedging is done continously
 No transaction cost on the underlying
 No arbitrage opportunities: [Put-Call Parity](Put-Call%20Parity.md)
 
-
-
-
+![](Pasted%20image%2020231017165117.png)
 
 ## Derivation
 
