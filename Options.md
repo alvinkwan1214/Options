@@ -18,8 +18,7 @@
 **At the money**: A call or put with a strike price that is close to the current asset level\
 **Long position**: A positive amount of a quantity, or a positive exposure to a quantity 
 **Short position**: A negative amount of a quantity, or a negative exposure to a quantity
-
-
+## Ways to Value an option
 [Black-Scholes Equation](Black-Scholes%20Equation.md)
 [Numerical Methods](Numerical%20Methods.md)
 [Binary Tree](Binary%20Tree)
@@ -29,3 +28,5 @@
 
 
 testing again
+testing again and again
+

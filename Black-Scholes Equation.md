@@ -1,3 +1,6 @@
+# Black-Scholes Equation
+## Basics
+
 Black-Scholes equation
 Pay off of a European Call option:
 
@@ -7,7 +10,7 @@ Black-Scholes formula for the price of the call option at date t = 0 prior to ma
 
 $c(0) = S(0)N(d_1) − e^{−rT}KN(d_2)$
 
-$d_1 = \frac{\ln({S(0)/K}) + (r + \sigma^2/2)T}{\sigma \sqrt(T)}$   
+$d_1 = \frac{\ln({S(0)/K}) + (r + \frac{\sigma^2}{2})T}{\sigma \sqrt(T)}$   
 
 $d_2 =  d_1 - \sigma \sqrt(T)$   
 
@@ -20,7 +23,22 @@ Black-Scholes formula foe the price of the put option at date t = 0 is written a
 $p(0) = e^{−rT}KN(-d_2) -  S(0)N(-d_1)$
 
 Assumptions: 
-In a neutral world all assests earn the risk-free rate
+In a neutral world all assets earn the risk-free rate
 
 Assuming the logarithm of the stock price is normally distributed
 [Black-Scholes Code](Code/black_schole_model.py)
+
+
+## Assumptions
+The underlying follows a lognormal random walk
+The [risk-free interest rate](Risk-free%20interest%20rate.md) is a known function of time
+Delta hedging is done continously
+No transaction cost on the underlying
+No arbitrage opportunities: [Put-Call Parity](Put-Call%20Parity.md)
+
+
+
+
+
+## Derivation
+
