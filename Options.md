@@ -21,7 +21,7 @@
 ## Ways to Value an option
 [Black-Scholes Equation](Black-Scholes%20Equation.md)
 [Numerical Methods](Numerical%20Methods.md)
-[Binary Tree](Binary%20Tree)
+[Binary Tree](Binary%20Tree.md)
 [Monte Carlo Simulation](Monte%20Carlo%20Simulation.md)
 
 [Greeks](Greeks.md)

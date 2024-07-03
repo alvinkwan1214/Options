@@ -26,7 +26,7 @@ Assumptions:
 In a neutral world all assets earn the risk-free rate
 
 Assuming the logarithm of the stock price is normally distributed
-[Black-Scholes Code](Code/black_schole_model.py)
+[Black-Scholes Code](black_schole_model.py)
 
 
 ## Assumptions
