@@ -24,7 +24,7 @@
 **Out of the money**: An option with no instrinsic value, only time value - a call option when the asset price is below the strike price; a put option when the assest price is above the strike 
 
 **At the money**: A call or put with a strike price that is close to the current asset level
-\
+
 **Long position**: A positive amount of a quantity, or a positive exposure to a quantity 
 
 **Short position**: A negative amount of a quantity, or a negative exposure to a quantity

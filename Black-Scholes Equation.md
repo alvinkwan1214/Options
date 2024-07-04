@@ -22,21 +22,36 @@ Black-Scholes formula foe the price of the put option at date t = 0 is written a
 
 $p(0) = e^{−rT}KN(-d_2) -  S(0)N(-d_1)$
 
-Assumptions: 
-In a neutral world all assets earn the risk-free rate
 
-Assuming the logarithm of the stock price is normally distributed
-[Black-Scholes Code](black_schole_model.py)
+
+
+Sigma is the [Implied Volatility](Implied%20Volatility.md)
+
+
+For a working example of the Black-Scholes equations, see
+[Black-Scholes Code](Options\Code\black_schole_model.py)
 
 
 ## Assumptions
 The underlying follows a lognormal random walk
+
 The [risk-free interest rate](Risk-free%20interest%20rate.md) is a known function of time
+
 Delta hedging is done continously
+
 No transaction cost on the underlying
+
 No arbitrage opportunities: [Put-Call Parity](Put-Call%20Parity.md)
 
-![](Pasted%20image%2020231017165117.png)
+
 
 ## Derivation
+
+
+
+## Variations
+### Options on Dividend-Paying Equities
+### Currency Options
+### Commondity Options
+### Options on Futures
 
