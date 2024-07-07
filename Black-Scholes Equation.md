@@ -29,7 +29,7 @@ Sigma is the [Implied Volatility](Implied%20Volatility.md)
 
 
 For a working example of the Black-Scholes equations, see
-[Black-Scholes Code](Options\Code\black_schole_model.py)
+[Black-Scholes Code](Options/Code/black_schole_model.py)
 
 
 ## Assumptions

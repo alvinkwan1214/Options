@@ -1,3 +1,4 @@
+# Explicit Method
 [Finite Difference Method](Finite%20Difference%20Method.md)
 The [Black-Scholes Equation](Black-Scholes%20Equation.md) is
 $$\frac{\delta V} {\delta t} + \frac{1}{2}\sigma^2S^2 \frac{\delta^2  V} {\delta S^2}+ rS\frac{\delta V} {\delta S } - rV = 0$$
@@ -38,9 +39,20 @@ where:
 $$A_{i}^{k}=\nu_1a_i^k-\frac12\nu_2b_i^k \;\;\;\;\;\;\ \\B_{i}^{k}=-2\nu_1a_i^k+\delta t c_i^k \;\;\;\;\;\;\ \\C_{i}^{k}=\nu_1a_i^k+\frac12\nu_2b_i^k$$
 where
 $$\nu_{1}=\frac{\delta t}{\delta S^{2}}\quad\mathrm{and}\quad\nu_{2}=\frac{\delta t}{\delta S}$$
-## Final Conditions and Boundary Conditions
+## Final Conditions 
 At expiry, the option value can be expressed as the payoff function:
 $$V(S, T) = \mathrm{max}(S - E, 0)$$
 With the Finite difference notation: 
-
 $$V_i^0=\mathrm{max}(i\mathrm{~}\delta S - E ,0)$$
+## Boundary Conditions 
+At S = 0, the diffusion and drift terms "switch off", meaning that on S = 0, the payoff is guaranteed, therefore, 
+$$\frac{\partial V}{\partial t}(0,t)-rV(0,t)=0$$
+Meaning that
+$$V_0^k=(1-r\delta t)V_0^{k-1}$$
+
+
+Another condition is for S tends to infinity:
+$$\frac{\partial^2V}{\partial S^2}(S,t)\to0\quad\mathrm{as~}S\to\infty$$
+With the finite-dfference notation: 
+$$V_I^k=2V_{I-1}^k-V_{I-2}^k$$
+The equations can now be solved using the explicit method. See [Code](Options/Code/BS_explicit_fdm.py)
