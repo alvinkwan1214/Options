@@ -2,7 +2,7 @@
 ## Delta 
 
 Delta of an option describes the change of the option value in respect to the underlying
-$$\Delta = \frac{\delta V}{\delta S}$$   V can be the value of a single contract or of a whole portfolio of contracts
+$$\Delta = \frac{\delta V}{\delta S}$$  V can be the value of a single contract or of a whole portfolio of contracts
 
 It is used for [Delta Hedging](Delta%20Hedging.md) 
 
