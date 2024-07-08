@@ -20,3 +20,4 @@ $$\begin{gathered}
 \left(\begin{array}{ccccccc}-A_1^{k+1}&1-B_1^{k+1}&-C_1^{k+1}&0&.&.&.\\0&-A_2^{k+1}&1-B_2^{k+1}&.&.&.&.\\.&0&.&.&.&0&.\\.&.&.&.&1-B_{l-2}^{k+1}&-C_{l-2}^{k+1}&0\\.&.&.&0&-A_{l-1}^{k+1}&1-B_{l-1}^{k+1}&-C_{l-1}^{k+1}\end{array}\right)\left(\begin{array}{c}V_0^{k+1}\\V_1^{k+1}\\.\\.\\.\\.\\.\\V_{l-1}^{k+1}\\\end{array}\right)\\
 =\left(\begin{array}{cccccc}A_1^k&1+B_1^k&C_1^k&0&.&.&.\\0&A_2^k&1+B_2^k&.&.&.&.\\.&0&.&.&.&0&.\\.&.&.&.&1+B_{I-2}^k&C_{I-2}^k&0\\.&.&.&0&A_{I-1}^k&1+B_{I-1}^k&C_{I-1}^k\end{array}\right)\left(\begin{array}{c}V_0^k\\V_1^k\\.\\.\\.\\.\\.\\V_{I-1}^k\\V_I^k\end{array}\right)
 \end{gathered}$$
+## Boundary Conditions 
