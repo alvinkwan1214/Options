@@ -37,7 +37,7 @@ $$\begin{gathered}\left(\begin{array}{ccccc}1-B_{1}^{k+1}&-C_{1}^{k+1}&0&.&.\\-A
 the vector $r^{k}$ has the length of $I -1$ and has non-zero elements at the top (and bottom), and it is completely known because it only depends on the function A and the value of V at the boundary.
 
 ### 2. Relationship between $V^{k+1}_{0}$ and $V^{k+1}_{1}$
-If we have a [Barrier option](Barrier%20option.md) for which a grid point does no coincide with the barrier, we must use the approximation: 
+If we have a [Barrier Options](Barrier%20Options.md) for which a grid point does no coincide with the barrier, we must use the approximation: 
 $$V_0^{k+1}=\frac{1}{\alpha}\left(f-(1-\alpha)V_1^{k+1}\right)$$
 Perhaps the slop of the option value for large or small S, giving us a gradient boundary condition
 

@@ -4,8 +4,9 @@
 
 **Put Options**: The right to sell a particular asset for an agreed amount at a specified time in the future
 
-**European Options**
-**American Options**
+[European Options](European%20Options)
+[American Options](American%20Options.md)
+[Barrier Options](Barrier%20Options.md)
 ## Common terms
 **Premium**: The amount paid for the contract
 
