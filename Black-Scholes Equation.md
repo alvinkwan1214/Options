@@ -47,8 +47,6 @@ No arbitrage opportunities: [Put-Call Parity](Put-Call%20Parity.md)
 
 ## Derivation
 
-
-
 ## Variations
 ### Options on Dividend-Paying Equities
 ### Currency Options
