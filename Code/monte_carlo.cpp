@@ -33,8 +33,6 @@ double r = 0.05; // Risk-free rate (5%)
 double vol = 0.2; // Volatility of the underlying (20%)
 double T = 1.0; // One year until expiry
 // Then we calculate the call/put values via Monte Carlo
-//double Call_Value = monte_carlo_call_price(num_sims, S, K, r, vol, T);
-//double Put_Value = monte_carlo_put_price(num_sims, S, K, r, vol, T);
 double Call_Value = monte_carlo_price(num_sims, S, K, r, vol, T, -1);
 double Put_Value = monte_carlo_price(num_sims, S, K, r, vol, T, 1);
 end = clock();
